@@ -34,7 +34,7 @@ stage('stage 2') {
         }
 
         }
-}
+
         // TODO: ADD AN APPROVAL STAGE
 stage('manual approval') {
 
@@ -53,5 +53,5 @@ input message: "Move to stage 3?"
             }
         }
 
-    }
+    
 }
